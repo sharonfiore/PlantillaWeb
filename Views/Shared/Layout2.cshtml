@@ -1,0 +1,152 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TAEX</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+
+
+    <link href="~/source/vendor/themify-icons/css/themify-icons.css" rel="stylesheet" />
+    <link href="~/source/vendor/animate/animate.min.css" rel="stylesheet" />
+    <link href="~/source/vendor/fancybox/css/jquery.fancybox.min.css" rel="stylesheet" />
+    <link href="~/source/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/source/vendor/owlcarousel/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/source/css/style.css" rel="stylesheet" />
+
+
+    <script src="~/recursos/js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div class="preloader">
+        <img src="~/recursos/imagen/logo900.png" width="100" height="100" alt="Pre-loader">
+    </div>
+
+    <!-- =======================
+    header Start-->
+    <header class="navbar-sticky navbar-light navbar-light">
+        <!-- Logo Nav Start -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="~/Web/Index">
+                    <!-- SVG Logo Start -->
+                    <img src="~/recursos/imagen/logolineal.png" width="100">
+                    <!-- SVG Logo End -->
+                </a>
+                <!-- Menu opener button -->
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"> </span>
+                </button>
+                <!-- Main Menu Start -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto ">
+                        <!-- Menu item 1 Demos-->
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link" href="~/Web/Index" aria-haspopup="true" aria-expanded="false">
+                                <strong>INICIO</strong>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link " id="demosMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <strong>CONÓCENOS</strong>
+                            </a>
+
+                            <div class="dropdown-menu pb-3 pb-lg-0" aria-labelledby="demosMenu">
+                                <div class="d-block d-sm-flex">
+                                    <ul class="list-unstyled w-100 w-sm-50 pr-0 pr-lg-5">
+                                        <li class="dropdown-header">Oficina de Bienestar Universitario</li>
+                                        <li> <a class="dropdown-item" href="~/Web/Conocenos">Sobre Nosotros</a> </li>
+                                        <li> <a class="dropdown-item" href="#">Galería</a> </li>
+                                    </ul>
+                                </div>
+                                <!-- mega menu Bottom -->
+                                <div class="w-100 bg-grad pattern-overlay-2 p-4 mt-3 all-text-white d-none d-lg-flex">
+                                    <div class="align-self-center mr-4">
+                                        <h4 class="mb-0">Talleres Extracurriculares</h4>
+                                        <p class="mb-0 small">Participa y desarrolla tu talento.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Menu item 2 Blog-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="~/Web/Talleres" id="blogMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <strong>TALLERES EXTRACURRICULARES</strong>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="blogMenu">
+                                <li> <a class="dropdown-item" href="~/Web/Talleres">Talleres Artísticos</a></li>
+                                <li> <a class="dropdown-item" href="about-advance.html">Talleres Deportivos</a></li>
+                                <li> <a class="dropdown-item" href="service.html">Talleres Desarrollo Personal</a> </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " style="margin-right:20px" href="~/Login/Index" aria-haspopup="true" aria-expanded="false">
+                                <strong>INTRANET</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Main Menu End -->
+                <!-- Header Extras Start-->
+                <div class="navbar-nav">
+                    <!-- extra item Btn-->
+                    <div class="nav-item border-0 d-none d-lg-inline-block align-self-center">
+                        <a href="~/Login/Index" class=" btn btn-sm btn-grad text-white mb-0">Iniciar Sesión</a>
+                    </div>
+                </div>
+                <!-- Header Extras End-->
+            </div>
+        </nav>
+        <!-- Logo Nav End -->
+    </header>
+    @RenderBody()
+
+
+    <!-- =======================
+    footer  -->
+    <footer class="footer bg-light py-5">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 mx-auto text-center pt-5">
+                        <div class="copyright-text">©2020 Todos los derechos reservados<a href="#!"> TAEX - UNIVERSIDAD PRIVADA DE TACNA.</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =======================
+    footer  -->
+
+    <div>
+        <a href="#" class="back-top btn btn-grad">
+            <i>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-up-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.247 4.86l-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+                </svg>
+            </i>
+        </a>
+    </div>
+    <script src="~/source/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+    <script src="~/source/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/source/vendor/jquery/jquery.min.js"></script>
+    <script src="~/source/vendor/popper.js/umd/popper.min.js"></script>
+    <script src="~/source/vendor/jquery-appear/jquery.appear.js"></script>
+    <script src="~/source/vendor/wavify/wavify.js"></script>
+    <script src="~/source/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="~/source/vendor/isotope/isotope.pkgd.min.js"></script>
+    <script src="~/source/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="~/source/vendor/animated-headline/main.js"></script>
+
+    <script src="~/source/js/functions.js"></script>
+</body>
+</html>

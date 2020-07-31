@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+﻿@charset 'UTF-8';
 /*!
 
 =========================================================
@@ -22200,8 +22200,9 @@ textarea[resize='horizontal']
     z-index: 1050;
 
     transition: all .4s ease;
+    position:fixed;
 }
-@media (min-width: 1200px)
+/*@media (min-width: 1200px)
 {
     .sidenav:hover
     {
@@ -22211,7 +22212,7 @@ textarea[resize='horizontal']
     {
         padding: 1.5rem;
     }
-}
+}*/
 .sidenav .navbar-brand,
 .sidenav .navbar-heading
 {
@@ -22220,7 +22221,7 @@ textarea[resize='horizontal']
 
 .sidenav-header
 {
-    height: 78px;
+    height: 120px;
 
     text-align: center;
 }

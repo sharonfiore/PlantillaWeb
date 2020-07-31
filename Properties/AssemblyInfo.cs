@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general sobre un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie los valores de estos atributos para modificar la información
 // asociada a un ensamblado.
-[assembly: AssemblyTitle("SistemaWeb_Plantilla")]
+[assembly: AssemblyTitle("SIGEM_TAEX")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SistemaWeb_Plantilla")]
+[assembly: AssemblyProduct("SIGEM_TAEX")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID es para el Id. typelib cuando este proyecto esté expuesto a COM
-[assembly: Guid("3a6d5643-1158-42ff-9321-7a54284d5162")]
+[assembly: Guid("31e514be-7402-4583-8c1b-a638ac5d0cfd")]
 
 // La información de versión de un ensamblado consta de los siguientes cuatro valores:
 //
